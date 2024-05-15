@@ -1,15 +1,15 @@
-import { ADD_TODO, DELETE_TODO } from "./constants";
+import { ADD_CONTACT, DELETE_CONTACT } from "./constants";
 
-export const addTodo = (payload) => {
+export const addContact = (payload) => {
   return {
-    type: ADD_TODO,
+    type: ADD_CONTACT,
     payload,
   };
 };
 
-export const deleteTodo = (payload) => {
+export const deleteContact = (payload) => {
   return {
-    type: DELETE_TODO,
+    type: DELETE_CONTACT,
     payload,
   };
 };
